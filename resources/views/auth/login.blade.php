@@ -6,7 +6,7 @@
 </head>
 <body class="bg-light d-flex align-items-center justify-content-center" style="height: 100vh;">
     <div class="card shadow-sm p-4" style="width: 400px;">
-        <h3 class="text-center mb-4">FutureBridge Login</h3>
+        <h3 class="text-center mb-4">FutureBridge Administrator Login.</h3>
 
         @if ($errors->any())
             <div class="alert alert-danger text-center">{{ $errors->first() }}</div>
@@ -25,7 +25,7 @@
             <button type="submit" class="btn btn-primary w-100">Log In</button>
         </form>
         <div class="text-center mt-3">
-            <a href="{{ route('register') }}" class="text-decoration-none">Create an account</a>
+            <a href="#" class="text-decoration-none">Create an account</a>
         </div>
     </div>
 </body>
